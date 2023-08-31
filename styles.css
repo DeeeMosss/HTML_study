@@ -6,7 +6,7 @@
 } */
 
 body {
-  background-image: url('/images/background.jpg');
+  background-image: url('images/background.jpg');
   font-size: 16px;
   font-weight: normal;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -45,7 +45,7 @@ a:hover {
 }
 
 .card {
-  background-image: url('/images/background_card.jpg');
+  background-image: url('images/background_card.jpg');
   border-radius: 17px;
   padding: 5px;
   margin-bottom: 10px;
