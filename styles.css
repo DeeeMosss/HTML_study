@@ -1,0 +1,99 @@
+@import url('OCR A Std, monospace');
+
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+body {
+  background-image: url('/images/background.jpg');
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  z-index: 2;
+}
+
+.container {
+  position: absolute;
+  top: 42%;
+  left: 40%;
+  z-index: 1;
+  transform: translate(-50%, -43%);
+  margin: 15px;
+}
+
+.avatar {
+  width: 270px;
+  border-radius: 17px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+  z-index: 99;
+}
+
+.avatar:hover {
+  box-shadow: 5px 5px 17px rgba(0, 0, 0, 25);
+  width: 271px;
+}
+
+a {
+  color: darkgreen;
+  font-family: OCR A Std, monospace;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  background-image: url('/images/background_card.jpg');
+  border-radius: 17px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.list_hobbies {
+  padding-inline-start: 20px;
+}
+
+.list_hobbies li {
+  margin-bottom: 5px;
+}
+
+.work_table {
+  width: 100%;
+  /* border-radius: 7px;
+  backdrop-filter: blur(30px); */
+}
+
+.work_table td {
+  padding-bottom: 16px;
+}
+
+.work_table td:nth-child(3) {
+  color: #68004b;
+}
+
+/* .pet_projects {
+  position: absolute;
+  transform: matrix(50%, -50%);
+  z-index: 100;
+  right: 40px;
+}
+
+.links a img {
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 25);
+  border-radius: 10px;
+}
+
+.links a img:hover {
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 30);
+  width: 151px;
+}
+
+.links a img:active {
+  margin-top: 2px;
+} */
+
+.pink_switch {
+  color: #68004b;
+}
