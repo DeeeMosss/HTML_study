@@ -1,4 +1,4 @@
-@import url('OCR A Std, monospace');
+/* @import url('OCR A Std, monospace'); */
 
 /* * {
     padding: 0;
@@ -101,7 +101,7 @@ a:hover {
   color: #68004b;
 }
 
-.form-group label{
+.form-group label {
   display: block;
   size: 18px;
   color: black;
@@ -156,4 +156,8 @@ a:hover {
   border: none;
   border-top: 1px solid;
   border-bottom: 1px solid;
+}
+
+.btn:hover {
+  opacity: 0.9;
 }
