@@ -39,10 +39,10 @@
                 <li class="music">Музыка(игра на гитаре, запись треков)</li>
                 <li class="driving">Вождение автомобиля</li>
                 <li class="it">Изучение IT</li>
-            </ol>
+                </ol>
 
-            <!-- <hr color="violet" size="2"> -->
-            </td>
+                <!-- <hr color="violet" size="2"> -->
+                </td>
         </div>
         <div class="card">
             <h2>Опыт работы</h2>
@@ -75,27 +75,29 @@
 
         <hr color="violet" size="2">
         </td> -->
-        <div class="card">
+        <div class="contact">
             <h2>Связаться со мной</h2>
 
             <form action="/">
-                <label for="name">Ваше имя:</label>
-                <input type="text" id="name" placeholder="Введите ваше имя...">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите ваше имя...">
+                    </div>
 
-                <br>
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" id="email" placeholder="Введите вашу почту...">
+                    </div>
+                </div>
 
-                <label for="email">Ваш Email:</label>
-                <input type="email" id="email" placeholder="Введите вашу почту...">
+                <div class="form-group">
+                    <label for="text">Ваше сообщение:</label>
+                    <textarea name="" id="text" cols="50" rows="5"></textarea>
+                </div>
 
-                <br>
+                <input class="btn" type="submit" value="Связаться">
 
-                <label for="text">Ваше сообщение:</label>
-                <br>
-                <textarea name="" id="text" cols="50" rows="5"></textarea>
-
-                <br>
-
-                <input type="submit" value="Связаться">
             </form>
 
         </div>
